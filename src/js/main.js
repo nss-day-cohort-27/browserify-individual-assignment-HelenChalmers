@@ -3,8 +3,7 @@ console.log("main JS is here")
 const formFunctionsDom = require("./placesFormDOM");
 const APIPlacesContent = require("./datamanager");
 const placesCard = require("./placesCard");
-const countryList = require("./countryListFunctions");
-const deleteFunction = require("./deleteFunction");
+
 
 
 
