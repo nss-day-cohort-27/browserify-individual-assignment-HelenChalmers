@@ -49,8 +49,10 @@ return `<button type="button" class="btn btn-primary" data-toggle="modal" data-t
 clearForm: {
     value: () => {
         document.querySelector("#country-name").value = ""
+        document.querySelector("#continent-name").value = ""
         document.querySelector("#dates-visited").value = ""
         document.querySelector("#favorite-memory").value = ""
+        
     }
 }
 
