@@ -21,6 +21,10 @@ return `<button type="button" class="btn btn-primary" data-toggle="modal" data-t
             <input type="text" class="form-control" id="country-name">
           </div>
           <div class="form-group">
+            <label for="continent-name" class="col-form-label">Continent:</label>
+            <input type="text" class="form-control" id="continent-name">
+          </div>
+          <div class="form-group">
               <label for="dates-visited" class="col-form-label">Date Visited:</label>
               <input type="date" class="form-control" id="dates-visited">
           </div>

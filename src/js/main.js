@@ -13,7 +13,8 @@ document.querySelector("#countryModal").innerHTML += formFunctionsDom.renderForm
 document.querySelector("#save-button").addEventListener("click", ()=>{
 
     const newCountry = {
-        country: document.querySelector("#country-name").value, 
+        country: document.querySelector("#country-name").value,
+        continent: document.querySelector("#continent-name").value, 
         date: document.querySelector("#dates-visited").value,
         memory: document.querySelector("#favorite-memory").value
     }
@@ -21,7 +22,7 @@ document.querySelector("#save-button").addEventListener("click", ()=>{
     APIPlacesContent.savePlacesContent(newCountry).then(() => {
         console.log(newCountry);
         formFunctionsDom.clearForm();
-        //call the function to get the entries and put to DOM
+        
         listCountries()
 })
 })
@@ -45,7 +46,7 @@ document.querySelector("#countryList").addEventListener("click", (event) => {
         console.log("yo this event thing works!", event.target.id);
         let id = event.target.id.split("--")[1]
         console.log(id);
-        //calls the deleteEntries function so that the entry is deleted on the Database.
+        
         APIPlacesContent.deletePlaces(id).then(()=> {
             listCountries()
         }) 
