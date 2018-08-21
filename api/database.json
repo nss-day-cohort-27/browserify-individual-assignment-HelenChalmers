@@ -20,6 +20,20 @@
       "date": "2010-05-25",
       "memory": "Visiting Berlin and hanging out with a German Friend in her home city. ",
       "id": 3
+    },
+    {
+      "country": "test",
+      "continent": "Australia",
+      "date": "",
+      "memory": "test",
+      "id": 4
+    },
+    {
+      "country": "Kenya",
+      "continent": "Africa",
+      "date": "",
+      "memory": "",
+      "id": 5
     }
   ]
 }

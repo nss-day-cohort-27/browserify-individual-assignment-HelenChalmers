@@ -20,10 +20,16 @@ return `<button type="button" class="btn btn-primary" data-toggle="modal" data-t
             <label for="country-name" class="col-form-label">Country Name:</label>
             <input type="text" class="form-control" id="country-name">
           </div>
-          <div class="form-group">
-            <label for="continent-name" class="col-form-label">Continent:</label>
-            <input type="text" class="form-control" id="continent-name">
-          </div>
+          <form action="/action_page.php" >
+  <select name="continents" id="continent-name">
+    <option value="Australia">Australia</option>
+    <option value="Antarctica">Antarctica</option>
+    <option value="North America">North America</option>
+    <option value="South America">South America</option>
+    <option value="Africa">Africa</option>
+    <option value="Europe">Europe</option>
+    <option value="Central America">Central America</option>
+  </select>
           <div class="form-group">
               <label for="dates-visited" class="col-form-label">Date Visited:</label>
               <input type="date" class="form-control" id="dates-visited">
