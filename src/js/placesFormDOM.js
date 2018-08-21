@@ -59,3 +59,4 @@ clearForm: {
 })
 
 module.exports = formFunctionsDom;
+
