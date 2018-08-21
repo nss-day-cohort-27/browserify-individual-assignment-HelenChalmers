@@ -1,3 +1,25 @@
 {
-  "places": []
+  "places": [
+    {
+      "country": "India",
+      "continent": "SouthEast Asia",
+      "date": "2009-03-20",
+      "memory": "Getting my wisdom teeth pulled while leading a few girls on a mission trip. ",
+      "id": 1
+    },
+    {
+      "country": "England",
+      "continent": "Europe",
+      "date": "2018-08-28",
+      "memory": "growing up, taking my Grandad's pup among the \"fields of gold\".  Also, winning Bourban as a middle schooler at an elementary school fair.  My grandad was proud.",
+      "id": 2
+    },
+    {
+      "country": "Germany",
+      "continent": "Europe",
+      "date": "2010-05-25",
+      "memory": "Visiting Berlin and hanging out with a German Friend in her home city. ",
+      "id": 3
+    }
+  ]
 }
